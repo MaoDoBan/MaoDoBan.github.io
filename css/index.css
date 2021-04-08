@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   background-color: #3fa8ee;
   border-bottom: 5px solid black;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 8px;
 }
 
 nav {
@@ -45,9 +45,11 @@ a {
   padding: 0 16px; /*vertical horizontal*/
   box-shadow: 3px 3px 1px black;
   transition: transform 200ms linear opacity 200ms ease-in-out;
+  margin: 0;
 }
 
 #img_mao {
   height: var(--tamanho_cabeçalho);
   width: var(--tamanho_cabeçalho);
 }
+
