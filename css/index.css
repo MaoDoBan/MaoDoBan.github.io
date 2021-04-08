@@ -13,6 +13,10 @@ header {
 nav {
   text-align: right;
 }
+nav a:hover {
+  transform: scale(1.04);
+  opacity: 0.94;
+}
 
 a {
   display: inline-flex;
@@ -40,6 +44,7 @@ a {
   line-height: var(--tamanho_cabeçalho);
   padding: 0 16px; /*vertical horizontal*/
   box-shadow: 3px 3px 1px black;
+  transition: transform 200ms linear opacity 200ms ease-in-out;
 }
 
 #img_mao {
