@@ -1,6 +1,6 @@
 .title {
   font-family: 'Arvo', serif;
   font-size: 40px;
-  color: #C44536;
-  text-shadow: 2px 2px 1px black;
+  color: var(--cor_destaque_clara);
+  text-shadow: 2px 2px 1px var(--cor_preta);
 }

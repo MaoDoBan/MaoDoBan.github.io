@@ -1,7 +1,7 @@
 .link {
   display: inline-flex;
   align-items: center;
-  color: #EDDDD4;
+  color: var(--cor_clara);
   font-size: 20px;
   font-weight: 800; /*a grossura*/
   text-decoration: none;
@@ -16,6 +16,6 @@
   content: "";
   width: 10px;
   height: 10px;
-  background-color: #C44536;
+  background-color: var(--cor_destaque_clara);
   margin-right: 8px;
 }

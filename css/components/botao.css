@@ -1,10 +1,10 @@
 .botao {
   display: inline-block;
-  background-color: #C44536;
+  background-color: var(--cor_destaque_clara);
   height: var(--tamanho_cabeçalho);
   line-height: var(--tamanho_cabeçalho);
   padding: 0 16px; /*vertical horizontal*/
-  box-shadow: 3px 3px 1px black;
+  box-shadow: 3px 3px 1px var(--cor_preta);
   /*transition: transform 200ms linear opacity 200ms ease-in-out;*/
   margin: 0;
   font-size: 22px;
