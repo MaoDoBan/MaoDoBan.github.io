@@ -1,0 +1,11 @@
+.botao {
+  display: inline-block;
+  background-color: #C44536;
+  height: var(--tamanho_cabeçalho);
+  line-height: var(--tamanho_cabeçalho);
+  padding: 0 16px; /*vertical horizontal*/
+  box-shadow: 3px 3px 1px black;
+  /*transition: transform 200ms linear opacity 200ms ease-in-out;*/
+  margin: 0;
+  font-size: 22px;
+}
