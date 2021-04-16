@@ -1,0 +1,21 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  color: #EDDDD4;
+  font-size: 20px;
+  font-weight: 800; /*a grossura*/
+  text-decoration: none;
+  margin-right: 25px;
+}
+.link:hover {
+  transform: scale(1.04);
+  opacity: 0.94;
+}
+
+.link_categoria::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #C44536;
+  margin-right: 8px;
+}
