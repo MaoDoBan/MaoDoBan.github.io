@@ -2,11 +2,11 @@
 
 :root {
   --tamanho_cabeçalho: 45px;
-  --cor_fundo_escura: #283D3B;
-  --cor_fundo_menos_escura: #197278;
-  --cor_clara: #EDDDD4;
-  --cor_destaque_clara: #C44536;
-  --cor_destaque_escura: #772E25;
+  --cor_fundo_escura: #283618;
+  --cor_fundo_menos_escura: #606C38;
+  --cor_clara: #FEFAE0;
+  --cor_destaque_clara: #DDA15E;
+  --cor_destaque_escura: #BC6C25;
   --cor_preta: #000;
 }
 
