@@ -1,55 +1,6 @@
+/*Paleta de cores:  #283D3B #197278 #EDDDD4 #C44536 #772E25 */
+
 :root {
   --tamanho_cabeçalho: 45px;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #3fa8ee;
-  border-bottom: 5px solid black;
-  padding: 8px 16px 8px 8px;
-}
-
-nav {
-  text-align: right;
-}
-nav a:hover {
-  transform: scale(1.04);
-  opacity: 0.94;
-}
-
-a {
-  display: inline-flex;
-  align-items: center;
-  color: #fff;
-  font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 800; /*a grossura*/
-  text-decoration: none;
-  margin-right: 25px;
-}
-
-.link_categoria::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: darkblue;
-  margin-right: 8px;
-}
-
-#curriculo {
-  display: inline-block;
-  background-color: #3f76ee;
-  height: var(--tamanho_cabeçalho);
-  line-height: var(--tamanho_cabeçalho);
-  padding: 0 16px; /*vertical horizontal*/
-  box-shadow: 3px 3px 1px black;
-  transition: transform 200ms linear opacity 200ms ease-in-out;
-  margin: 0;
-}
-
-#img_mao {
-  height: var(--tamanho_cabeçalho);
-  width: var(--tamanho_cabeçalho);
 }
 

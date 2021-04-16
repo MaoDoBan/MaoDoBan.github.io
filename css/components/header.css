@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #197278;
+  border-bottom: 5px solid black;
+  padding: 8px 16px 8px 8px;
+}
+
+#img_mao {
+  height: var(--tamanho_cabeçalho);
+  width: var(--tamanho_cabeçalho);
+}
+
+.header .navigation {
+  ;
+}

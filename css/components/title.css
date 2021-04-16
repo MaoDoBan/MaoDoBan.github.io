@@ -1,6 +1,6 @@
-h1 {
-  font-family: 'Esteban', serif;
+.title {
+  font-family: 'Arvo', serif;
   font-size: 40px;
-  color: rgb(0, 207, 104);
+  color: #C44536;
   text-shadow: 2px 2px 1px black;
 }
