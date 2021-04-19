@@ -4,3 +4,9 @@
   color: var(--cor_destaque_clara);
   text-shadow: 2px 2px 1px var(--cor_preta);
 }
+
+.title.-second {
+  color: var(--cor_clara);
+  text-shadow: none;
+  text-align: center;
+}
