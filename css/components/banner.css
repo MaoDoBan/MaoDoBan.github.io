@@ -2,8 +2,8 @@
   background-image: url(../../assets/img/imagem_clara_fundo.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 900px;
-  border-bottom: 5px solid var(--cor_preta);
+  height: 500px;
+  border-bottom: 8px solid var(--cor_preta);
   padding-top: 115px;
   padding-left: 90px;
 }

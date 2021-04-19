@@ -1,0 +1,6 @@
+.section {
+  background-color: var(--cor_destaque_escura);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: 8px solid var(--cor_preta);
+}
