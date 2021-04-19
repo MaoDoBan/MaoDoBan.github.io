@@ -9,7 +9,7 @@
 }
 .link:hover {
   transform: scale(1.04);
-  opacity: 0.94;
+  /*opacity: 0.94;*/
 }
 
 .link_categoria::before {
