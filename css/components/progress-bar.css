@@ -5,6 +5,24 @@
   height: 30px;
 }
 
+.progress-bar .porcentagem-progresso {
+  background-color: var(--cor_fundo_menos_escura);
+  height: 100%;
+}
+
+.progress-bar .porcentagem-progresso.-p55 {
+  width: 55%;
+}
+.progress-bar .porcentagem-progresso.-p60 {
+  width: 60%;
+}
+.progress-bar .porcentagem-progresso.-p75 {
+  width: 75%;
+}
+.progress-bar .porcentagem-progresso.-p80 {
+  width: 80%;
+}
+
 .progress-bar::-webkit-progress-bar,
 .progress-bar::-moz-progress-bar {
   background-color: var(--cor_fundo_menos_escura);
