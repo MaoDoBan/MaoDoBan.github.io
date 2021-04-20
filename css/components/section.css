@@ -5,3 +5,6 @@
   border-bottom: 8px solid var(--cor_preta);
 }
 
+.section .main-title {
+  margin-bottom: 50px;
+}
