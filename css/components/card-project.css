@@ -1,0 +1,18 @@
+.card-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor_fundo_escura);
+  width: 333px;
+  height: 333px;
+  box-shadow: 8px 8px 0px var(--cor_clara);
+}
+
+.card-project .logo {
+  width: 301px;
+  height: 301px;
+}
+
+.card-project.-discord {
+  background-color: var(--cor_discord_escura);
+}
