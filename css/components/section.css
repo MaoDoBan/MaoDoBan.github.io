@@ -1,5 +1,4 @@
 .section {
-  background-color: var(--cor_destaque_escura);
   padding-top: 50px;
   padding-bottom: 60px;
   border-bottom: 8px solid var(--cor_preta);
@@ -7,4 +6,12 @@
 
 .section .main-title {
   margin-bottom: 50px;
+}
+
+.section#skills {
+  background-color: var(--cor_destaque_escura);
+}
+
+.section#projetos {
+  background-color: var(--cor_preta);
 }
