@@ -8,10 +8,22 @@
   margin-bottom: 50px;
 }
 
-.section#skills {
+.section.-bg-destaque-escuro {
   background-color: var(--cor_destaque_escura);
 }
 
-.section#projetos {
+.section.-bg-preto {
   background-color: var(--cor_preta);
+}
+
+.section.-borda-b-preta {
+  border-bottom: 8px solid var(--cor_preta);
+}
+
+.section.-borda-b-destaque-clara {
+  border-bottom: 8px solid var(--cor_destaque_clara);
+}
+
+.section.-borda-b-destaque-escura {
+  border-bottom: 8px solid var(--cor_destaque_escura);
 }
