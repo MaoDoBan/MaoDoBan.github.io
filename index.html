@@ -12,84 +12,84 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/section.css">
-    <link rel="stylesheet" href="css/components/link.css">
-    <link rel="stylesheet" href="css/components/botao.css">
-    <link rel="stylesheet" href="css/components/main-title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/cp-section.css">
+    <link rel="stylesheet" href="css/components/cp-link.css">
+    <link rel="stylesheet" href="css/components/cp-botao.css">
+    <link rel="stylesheet" href="css/components/cp-title.css">
+    <link rel="stylesheet" href="css/components/cp-subtitle.css">
+    <link rel="stylesheet" href="css/components/cp-box.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
-    <link rel="stylesheet" href="css/components/skill.css">
+    <link rel="stylesheet" href="css/components/cp-skill.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/card-project.css">
   </head>
   <body>
-    <header class="header">
+    <header class="main-header">
       <img id="img_mao" src="assets/img/hand.gif" alt="Imagem animada de uma mão">
       <nav>
-        <a class="link link_categoria" href="#skills">Skills</a>
-        <a class="link link_categoria" href="#projetos">Projetos</a>
-        <a class="link link_categoria" href="">Sobre</a>
-        <a class="link link_categoria" href="">Contatos</a>
-        <a class="link botao" href="">Currículo</a>
+        <a class="cp-link link_categoria" href="#skills">Skills</a>
+        <a class="cp-link link_categoria" href="#projetos">Projetos</a>
+        <a class="cp-link link_categoria" href="#sobre">Sobre</a>
+        <a class="cp-link link_categoria" href="">Contatos</a>
+        <a class="cp-link cp-botao" href="">Currículo</a>
       </nav>
     </header>
 
-    <section class="banner -borda-b-preta">
+    <section class="main-banner -borda-b-preta">
       <div class="wrapper">
-        <div class="box">
-          <h1 class="main-title">Mão do Ban</h1>
-          <h2 class="subtitle">Desenvolvedor Web</h2>
+        <div class="cp-box">
+          <h1 class="cp-title">Mão do Ban</h1>
+          <h2 class="cp-subtitle">Desenvolvedor Web</h2>
         </div>
 
         <div class="d_botoes">
-          <a class="link botao" href="">Currículo</a>
-          <a class="link botao" href="">Contatos</a>
+          <a class="cp-link cp-botao" href="">Currículo</a>
+          <a class="cp-link cp-botao" href="">Contatos</a>
         </div>
       </div>
     </section>
 
-    <section class="section -bg-destaque-escuro -borda-b-destaque-clara" id="skills">
-      <h2 class="main-title -second">Skills</h2>
+    <section class="cp-section -bg-destaque-escuro -borda-b-destaque-clara" id="skills">
+      <h2 class="cp-title -second">Skills</h2>
 
       <div class="wrapper-skill">
-        <article class="skill">
+        <article class="cp-skill">
           <img class="icon" src="assets/img/icon-html-5.png" alt="HTML icon">
           <div class="right">
-            <h3 class="title">HTML</h3>
+            <h3>HTML</h3>
             <div class="progress-bar">
               <div class="porcentagem-progresso -p60"></div>
             </div>
           </div>
         </article>
 
-        <article class="skill">
+        <article class="cp-skill">
           <img class="icon" src="assets/img/icon-css3.png" alt="CSS icon">
           <div class="right">
-            <h3 class="title">CSS</h3>
+            <h3>CSS</h3>
             <div class="progress-bar">
               <div class="porcentagem-progresso -p55"></div>
             </div>
           </div>
         </article>
 
-        <article class="skill">
+        <article class="cp-skill">
           <img class="icon" src="assets/img/icon-javascript.png" alt="Javascript icon">
           <div class="right">
-            <h3 class="title">JavaScript</h3>
+            <h3>JavaScript</h3>
             <div class="progress-bar">
               <div class="porcentagem-progresso -p80"></div>
             </div>
           </div>
         </article>
 
-        <article class="skill">
+        <article class="cp-skill">
           <img class="icon" src="assets/img/icon-nodejs.png" alt="Node.js icon">
           <div class="right">
-            <h3 class="title">Node.JS</h3>
+            <h3>Node.JS</h3>
             <div class="progress-bar">
               <div class="porcentagem-progresso -p75"></div>
             </div>
@@ -98,17 +98,27 @@
       </div>
     </section>
     
-    <section class="section -bg-preto -borda-b-destaque-escura" id="projetos">
-      <h2 class="main-title -second">Projetos</h2>
+    <section class="cp-section -bg-preto -borda-b-destaque-escura" id="projetos">
+      <h2 class="cp-title -second">Projetos</h2>
 
       <div class="wrapper-card">
-        <figure class="card-project">
-          <img class="logo" src="assets/img/logo-z.png" alt="Logo do Zerver">
-        </figure>
-        <figure class="card-project -discord">
-          <img class="logo" src="assets/img/logo-king.png" alt="Logo do King Bot">
-        </figure>
+        <a href="https://maodoban.github.io/zerver/" target="_blank">
+          <figure class="card-project">
+            <img class="logo" src="assets/img/logo-z.png" alt="Logo do Zerver">
+          </figure>
+          <!--h3>Zerver</h3-->
+        </a>
+        <a href="http://www.hyclan.com/" target="_blank">
+          <figure class="card-project -discord">
+            <img class="logo" src="assets/img/logo-king.png" alt="Logo do King Bot">
+          </figure>
+          <!--h3>Hyclan</h3-->
+        </a>
       </div>
+    </section>
+
+    <section class="cp-section" id="sobre">
+      <p class="cp-description">Em 2013 ingressei no curso superior de Sistema de Informação da Universidade Federal da Grande Dourados onde aprendi: lógica de programação, estruturas de dados, banco de dados estruturado, teoria de gerência de projetos de desenvolvimento de software, etc. Em 2015 comecei a administrar um servidor privado do Minecraft, Z, e desde então permaneço no posto. Em 2019 fui chamado para participar da equipe da HyClan, uma comunidade brasileira de fãs do jogo (não lançando na época) Hytale, onde comecei a desenvolver o bot King para o grupo no Discord. Desenvolvi mais 3 bots até 2020 para outros grupos. No final de 2020 estruturei o servidor de Minecraft dos subs do Rakin, programando um sistema de registro via bot da Twitch e do Discord. Em 2021 refatorei o sistema de registro via bots, adicionando sistema de formulário, para a temporada nova do Z: Zerver.</p>
     </section>
   </body>
 </html>

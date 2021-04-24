@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
   display: flex;
   box-sizing: border-box;
   background-image: url(../../assets/img/imagem_clara_fundo.png);
@@ -8,18 +8,18 @@
   border-bottom: 8px solid var(--cor_preta);
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
   display: flex;
   flex-direction: column;
   margin: auto;
   width: 444px;
 }
 
-.banner .box {
+.main-banner .cp-box {
   margin-bottom: 40px;
 }
 
-.banner .d_botoes {
+.main-banner .d_botoes {
   display: flex;
   /*flex-direction: row;*/
   justify-content: space-around;

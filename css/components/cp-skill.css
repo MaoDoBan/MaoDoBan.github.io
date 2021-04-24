@@ -1,20 +1,20 @@
-.skill {
+.cp-skill {
   display: flex;
   font-family: 'Arvo', serif;
   font-size: 25px;
   color: var(--cor_clara);
 }
 
-.skill .icon {
+.cp-skill .icon {
   margin-right: 25px;
 }
 
-.skill img {
+.cp-skill img {
   width: 80px;
   height: 80px;
 }
 
-.skill .right {
+.cp-skill .right {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

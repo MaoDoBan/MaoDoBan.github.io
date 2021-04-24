@@ -1,4 +1,4 @@
-.box {
+.cp-box {
   display: inline-block;
   background-color: var(--cor_fundo_escura);
   box-shadow: 5px 5px 1px var(--cor_preta);
@@ -6,6 +6,6 @@
   padding: 44px 55px;
 }
 
-.box h1 {
+.cp-box h1 {
   margin-bottom: 18px;
 }

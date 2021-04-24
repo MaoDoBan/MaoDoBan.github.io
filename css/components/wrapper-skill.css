@@ -6,12 +6,12 @@
   margin-right: auto;
 }
 
-.wrapper-skill .skill {
+.wrapper-skill .cp-skill {
   width: 410px;
   margin-bottom: 40px;
 }
 
-.wrapper-skill .skill:nth-child(odd) {
+.wrapper-skill .cp-skill:nth-child(odd) {
   margin-right: 100px;
 }
 

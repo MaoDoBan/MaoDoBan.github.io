@@ -1,4 +1,4 @@
-.link {
+.cp-link {
   display: inline-flex;
   align-items: center;
   color: var(--cor_clara);
@@ -7,7 +7,7 @@
   text-decoration: none;
   margin-right: 25px;
 }
-.link:hover {
+.cp-link:hover {
   transform: scale(1.04);
   /*opacity: 0.94;*/
 }

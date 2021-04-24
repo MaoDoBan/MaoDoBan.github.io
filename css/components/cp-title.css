@@ -1,11 +1,11 @@
-.main-title {
+.cp-title {
   font-family: 'Arvo', serif;
   font-size: 40px;
   color: var(--cor_destaque_clara);
   text-shadow: 2px 2px 1px var(--cor_preta);
 }
 
-.main-title.-second {
+.cp-title.-second {
   color: var(--cor_clara);
   text-shadow: none;
   text-align: center;

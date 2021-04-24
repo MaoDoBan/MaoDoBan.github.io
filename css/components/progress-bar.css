@@ -22,8 +22,3 @@
 .progress-bar .porcentagem-progresso.-p80 {
   width: 80%;
 }
-
-.progress-bar::-webkit-progress-bar,
-.progress-bar::-moz-progress-bar {
-  background-color: var(--cor_fundo_menos_escura);
-}
