@@ -12,6 +12,10 @@
   background-color: var(--cor_destaque_escura);
 }
 
+.cp-section.-bg-fundo-menos-escuro {
+  background-color: var(--cor_fundo_menos_escura);
+}
+
 .cp-section.-bg-preto {
   background-color: var(--cor_preta);
 }
