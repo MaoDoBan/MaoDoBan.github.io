@@ -1,0 +1,31 @@
+.botao-seta {
+  width: 50px;
+  height: 50px;
+  background-color: var(--cor_destaque_escura);
+  box-shadow: 5px 5px 0px var(--cor_preta);
+  cursor: pointer;
+}
+
+.botao-seta .content {
+  display: none;
+}
+
+.botao-seta::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 20px solid transparent;
+}
+
+.botao-seta.-left::before {
+  border-left: 30px solid var(--cor_clara);
+  transform: translateX(5px);
+}
+
+.botao-seta.-right::before {
+  border-left: 0 solid transparent;
+  border-right: 30px solid var(--cor_clara);
+  transform: translateX(0px);
+}
