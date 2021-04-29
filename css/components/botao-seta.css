@@ -20,10 +20,10 @@
 }
 
 .botao-seta.-left {
-  left: 15px;
+  left: 25px;
 }
 .botao-seta.-right {
-  right: 15px;
+  right: 25px;
 }
 
 .botao-seta.-left::before {

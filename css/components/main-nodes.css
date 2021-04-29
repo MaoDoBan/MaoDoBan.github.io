@@ -8,12 +8,23 @@
 .main-nodes::after {
   content: "";
   position: absolute;
-  left: 0;
+  left: 100px;
   top: 35px;
   display: block;
-  height: 5px;
-  width: 100%;
+  height: 4px;
+  width: calc(100% - 200px);
   background-color: var(--cor_preta);
+}
+
+.main-nodes::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  display: block;
+  width: 100%;
+  border: 2.5px dashed var(--cor_preta);
 }
 
 .main-nodes .botao-seta {
