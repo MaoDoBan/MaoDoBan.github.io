@@ -19,6 +19,13 @@
   border: 20px solid transparent;
 }
 
+.botao-seta.-left {
+  left: 15px;
+}
+.botao-seta.-right {
+  right: 15px;
+}
+
 .botao-seta.-left::before {
   border-left: 30px solid var(--cor_clara);
   transform: translateX(5px);

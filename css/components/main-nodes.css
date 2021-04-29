@@ -1,0 +1,22 @@
+.main-nodes {
+  /*align-items: center;*/
+  justify-content: space-evenly;
+  position: relative;
+  display: flex;
+}
+
+.main-nodes::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 35px;
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: var(--cor_preta);
+}
+
+.main-nodes .botao-seta {
+  position: absolute;
+  bottom: 55px;
+}
