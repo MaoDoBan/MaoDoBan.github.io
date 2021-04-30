@@ -27,12 +27,12 @@
 }
 
 .botao-seta.-left::before {
-  border-left: 30px solid var(--cor_clara);
-  transform: translateX(5px);
-}
-
-.botao-seta.-right::before {
   border-left: 0 solid transparent;
   border-right: 30px solid var(--cor_clara);
   transform: translateX(0px);
+}
+
+.botao-seta.-right::before {
+  border-left: 30px solid var(--cor_clara);
+  transform: translateX(5px);
 }

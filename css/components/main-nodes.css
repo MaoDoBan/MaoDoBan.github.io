@@ -1,8 +1,8 @@
 .main-nodes {
   /*align-items: center;*/
-  justify-content: space-evenly;
-  position: relative;
   display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .main-nodes::after {
@@ -30,4 +30,15 @@
 .main-nodes .botao-seta {
   position: absolute;
   bottom: 55px;
+}
+
+.main-nodes .grupo-node-cards {
+  width: calc(100% - 200px);
+  overflow: hidden;
+}
+
+.main-nodes .grupo-nc-interno {
+  display: flex;
+  justify-content: space-around;
+  transition: transform 100ms ease-in-out;
 }
