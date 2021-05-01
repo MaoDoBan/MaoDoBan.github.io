@@ -1,0 +1,15 @@
+.main-footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--cor_preta);
+  padding: 28px;
+}
+
+.main-footer a {
+  padding-left: 50px;
+}
+
+.main-footer img {
+  height: 100px;
+  width: 100px;
+}
