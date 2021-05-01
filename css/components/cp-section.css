@@ -16,6 +16,10 @@
   background-color: var(--cor_fundo_menos_escura);
 }
 
+.cp-section.-bg-fundo-discord {
+  background-color: var(--cor_discord_escura);
+}
+
 .cp-section.-bg-preto {
   background-color: var(--cor_preta);
 }

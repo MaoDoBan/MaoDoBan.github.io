@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/components/botao-seta.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/cp-label.css">
   </head>
   <body>
     <header class="main-header">
@@ -38,7 +39,7 @@
         <a class="cp-link link_categoria" href="#skills">Skills</a>
         <a class="cp-link link_categoria" href="#projetos">Projetos</a>
         <a class="cp-link link_categoria" href="#sobre">Sobre</a>
-        <a class="cp-link link_categoria" href="">Contatos</a>
+        <a class="cp-link link_categoria" href="#contato">Contatos</a>
         <a class="cp-link cp-botao" href="">Currículo</a>
       </nav>
     </header>
@@ -179,6 +180,21 @@
         No final de 2020 estruturei o servidor de Minecraft dos subs do Rakin, programando um sistema de registro via bot da Twitch e do Discord. </br>
         Em 2021 refatorei o sistema de registro via bots, adicionando sistema de formulário, para a temporada nova do Z: Zerver.</p>
 
+    </section>
+
+    <section class="cp-section -bg-fundo-discord" id="contato">
+      <form action="">
+        <label class="cp-label" for="nome">Nome</label>
+        <input id="nome" type="text">
+        
+        <label class="cp-label" for="email">Email</label>
+        <input id="email" type="email">
+        
+        <label class="cp-label" for="message">Mensagem</label>
+        <textarea id="message"></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
     </section>
 
     <footer class="main-footer">
