@@ -29,9 +29,10 @@
     <link rel="stylesheet" href="css/components/main-nodes.css">
     <link rel="stylesheet" href="css/components/botao-seta.css">
     <link rel="stylesheet" href="css/components/node-card.css">
-    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/cp-label.css">
     <link rel="stylesheet" href="css/components/cp-input.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
   </head>
   <body>
     <header class="main-header">
@@ -184,7 +185,7 @@
     </section>
 
     <section class="cp-section -bg-fundo-discord" id="contato">
-      <form action="">
+      <form action="main-form">
         <label class="cp-label" for="nome">Nome</label>
         <input class="cp-input" id="nome" type="text">
         
@@ -192,9 +193,9 @@
         <input class="cp-input" id="email" type="email">
         
         <label class="cp-label" for="message">Mensagem</label>
-        <textarea class="cp-input" id="message"></textarea>
+        <textarea class="cp-input -textarea" id="message"></textarea>
         
-        <button type="submit">Enviar</button>
+        <button class="cp-botao -width100" type="submit">Enviar</button>
       </form>
     </section>
 

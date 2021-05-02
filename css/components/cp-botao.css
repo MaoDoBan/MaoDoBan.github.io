@@ -10,6 +10,10 @@
   font-size: 22px;
 }
 
+.cp-botao.-width100 {
+  width: 100%;
+}
+
 /*.cp-botao:hover {
   transform: scale(1.04);
 }*/

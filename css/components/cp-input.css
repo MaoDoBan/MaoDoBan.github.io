@@ -7,3 +7,7 @@
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.cp-input.-textarea {
+  height: 250px;
+}
