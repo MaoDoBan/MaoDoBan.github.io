@@ -10,3 +10,10 @@
   height: var(--tamanho_cabeçalho);
   width: var(--tamanho_cabeçalho);
 }
+
+
+/*@media screen and (max-width: 777px) {
+  .main-header {
+    display;
+  }
+}*/

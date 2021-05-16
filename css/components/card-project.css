@@ -12,3 +12,15 @@
   width: 301px;
   height: 301px;
 }
+
+
+@media screen and (max-width: 777px) {
+  .card-project {
+    width: 165px;
+    height: 165px;
+  }
+  .card-project .logo {
+    width: 135px;
+    height: 135px;
+  }
+}
