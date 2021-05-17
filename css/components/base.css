@@ -1,0 +1,22 @@
+:root{
+  --cor_preta: #000;
+  --cor_branca: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
+    font-family: 'Big Shoulders Stencil Text', cursive;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+
+    fonte pra título: Big Shoulders Stencil Text
+    fonte pro corpo: Roboto
+    fonte formal/serifada pra algum detalhe: Roboto Slab
+
+    a largura do texto ficar ou 888 ou 999 ou 1111
+*/
