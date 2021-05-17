@@ -1,0 +1,1 @@
+//pra fazer um vetor de textos pra escolher uma msg dele aleatoriamente pra exigir no topo da página
