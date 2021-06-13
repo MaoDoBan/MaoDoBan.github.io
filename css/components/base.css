@@ -10,8 +10,9 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-image: url('../../assets/img/bg-code.PNG');
+  font-family: 'Roboto Slab', serif;
+  /*background-image: url('../../assets/img/bg-code.PNG');*/
+  background-image: url('https://cdn.discordapp.com/attachments/438624088949391360/853557329785520168/Stars-in-sky-214566-pixahive.png');
 }
 
 /*
