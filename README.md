@@ -7,7 +7,7 @@ Contato via twitter: https://twitter.com/MaoDoBan
 
 
 ## O que colocarei aqui com o tempo
-- Gifs, vídeos, imagens e links dos meus projetos
+- Vídeos, imagens e links dos meus projetos
 
 
 > Busquem conhecimento
